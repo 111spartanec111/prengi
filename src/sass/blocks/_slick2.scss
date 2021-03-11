@@ -1,0 +1,213 @@
+
+.prengi__slider {
+    min-height: 890px;
+    background: url('../img/slider2-bg.png') center (center / cover) no-repeat;
+    padding-top: 79px;
+}
+.prengi__h1 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+
+
+.slider2 {
+        /* Конкретный слайдер */
+        min-width: 0;
+        position: relative;
+        padding: 0px 10px;
+        margin-top: 36px;
+    
+    /* Основные стили */
+    
+    /* Слайдер */
+    .slick-slider{
+        min-width: 0;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list {
+        overflow: hidden;
+        padding: 0 0;
+    }
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+        align-items:center;
+    }
+    
+    /* Слайд */
+    .slick-slide{
+        // transform: scale(0.6);
+        // opacity: 0.3;
+        transition: all 0.3s ease-in;
+        outline: none;
+        border: none;
+        
+    }
+    /* Слайд активный */
+    .slick-slide.slick-active{}
+    /* Слайд основной */
+    .slick-slide.slick-current{}
+    /* Слайд по центру */
+    .slick-slide.slick-center{
+        opacity: 1;
+        transform: scale(1);
+        transition: all 0.3s ease-in;
+        outline: none;
+        border: none;
+        
+    }
+    
+    /* Стрелка */
+    .slick-arrow{
+        bottom: 20%;
+    }
+    /* Стрелка влево */
+    .slick-arrow.slick-prev{}
+    /* Стрелка вправо */
+    .slick-arrow.slick-next{}
+    /* Стрелка не активная */
+    .slick-arrow.slick-disabled{}
+    
+    /* Точки */
+    .slick-dots{}
+    .slick-dots li{}
+    .slick-dots button{}
+    
+    
+    
+    
+    .slider__wrapper {
+        margin: 0 auto;
+        // width: 900px;   Отключить в скрипте ширину variableWidth: true,
+    }
+    .slider__img {
+        display: block;
+        margin: 0 auto;
+    }
+    .slider__title {
+        margin-top: 18px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .slider__subtitle {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #ffffff;
+    }
+    
+    
+    
+    .slick-arrow{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50px);
+        margin: -11px 0px 0px 0px;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 60px;
+    }
+    .slick-arrow.slick-prev{
+        outline: none;
+        border: none;
+        left: 5%;
+        width: 19px;
+        height: 59px;
+        background: url('../img/left.png') 0 0 / 100% no-repeat;
+    }
+    .slick-arrow.slick-next{
+        outline: none;
+        border: none;
+        right: 5%;
+        width: 19px;
+        height: 59px;
+        background: url('../img/right.png') 0 0 / 100% no-repeat;
+    }
+    .slick-arrow.slick-disabled{
+        opacity: 0.2;
+    }
+    
+    .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 68px;
+        display: none;
+    }
+    .slick-dots li{
+        list-style: none;
+        margin: 0px 3px;
+    }
+    .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: unset;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: none;
+    }
+    
+    .slick-dots li.slick-active button{
+        background-color: transparent;
+        border: 1px solid #fff;
+        background-color: #fff;
+    }
+    
+    .slider__item {
+        position: relative;
+        
+        padding: 0px 0px;
+        margin-right: 80px;
+    }
+    .slider__item img{
+        position: relative;
+
+        
+    }
+    .slider__item.slick-center{
+        
+    }
+}
+    
+
+.custom-navigation {
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    width: 843px;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    a {
+        line-height: 40px;
+        color: white;
+        padding-right: 20px;
+        border-right: 1px solid rgb(192, 189, 189);
+        &:last-child {
+            border-right: none;
+        }
+        &:active {
+            color: $main-color;
+        }
+        &:focus {
+            color: $main-color;
+        }
+    }
+}

@@ -1,0 +1,111 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0,0,0, 0.56);
+    z-index: 2;
+}
+.modal {
+    border: 1px solid white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    min-height: 400px;
+    background-color: #25333c;;
+    padding: 38px 38px 40px 38px;
+    border-radius: 10px ;
+    z-index: 10;
+    &__close {
+        position: absolute;   /* крестик */
+        top: 10px;
+        right: 8px;
+        font-size: 60px;
+        line-height: 21px;
+        color: $main-color;
+        cursor: pointer;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 25px;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #ffffff;
+        text-align: center;
+    }
+    &_mini {
+        min-height: 140px;
+        border-radius: 20px;
+    }
+}
+ .feed-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    input {
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        border: none;
+        padding: 0 20px;
+        color: #4b4b4b;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 66px;
+        outline: 0;
+    }
+    .button_submit {
+        width: 300px;
+        height: 55px;
+        font-size: 16px;
+        border-radius: 25px ;
+        background-color: $main-color;
+        color:#ffffff;
+        border: none;
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            outline: none;
+            transform: translateY(2px);
+        }
+    }
+ }
+
+    #thanks, #consultation {
+        display: none;
+    }
+
+    #email-error {
+        font-weight: 500;
+        color: red;
+        position: relative;
+        top: -14px;
+    }
+    
+    #name-error {
+        font-weight: 500;
+        color: red;
+        position: relative;
+        top: -14px;
+    }
+    
+    #phone-error {
+        font-weight: 500;
+        position: relative;
+        top: -14px;
+        color: red;
+    }

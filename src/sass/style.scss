@@ -1,0 +1,56 @@
+@import 'libs/bootstrap-reboot.min';
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import 'libs/tiny-slider';
+@import 'base/variables';
+@import 'base/mixins'; /* миксин после переменной! */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+    img {
+    max-width: 100%;
+    display: block;
+    }
+    ul, li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+@import "blocks/head";
+@import "blocks/main";
+@import "blocks/slick2";
+
+
+// @import "blocks/first";
+// @import "blocks/advantages";
+// @import "blocks/work";
+// @import "blocks/agent";
+// @import "blocks/catalog";
+// @import "blocks/manager";
+// @import "blocks/slider";
+// @import "blocks/scheme";
+// @import "blocks/question";
+// @import "blocks/footer";
+
+@import "blocks/pageup";
+
+// @import 'blocks/menu';
+// @import 'blocks/policy';
+@import 'blocks/modal';
+@import 'blocks/media';

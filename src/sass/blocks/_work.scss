@@ -1,0 +1,52 @@
+.work {
+    padding-top: 51px;
+    padding-bottom: 56px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+        text-align: center;
+    }
+    &__cart {
+        width: 360px;
+        &_img {
+            width: 360px;
+            img {
+                width: 100%;
+            }
+        }
+        &_title {
+            margin-top: 26px;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: $main-color;
+        }
+        &_subtitle {
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            line-height: 22px;
+        }
+    }
+}
+.line {
+    display: block;
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    background: $main-color;
+    text-align: center;
+    margin-top: 19px;
+}
+.subtitle {
+    width: 895px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #2e2e2e;
+}

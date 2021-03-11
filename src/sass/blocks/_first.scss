@@ -1,0 +1,177 @@
+.first {
+    min-height: 680px;
+    background: url('../img/bg-glopt.png') center (center / cover) no-repeat;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 23px;
+        align-items: center;
+        &_item {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            min-height: 120px;
+            width: 265px;
+            text-align: center;
+        }
+    }
+    &__descr {
+        margin-top: 7px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #ffffff;
+                
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 230px;
+        height: 57px;
+        border-radius: 25px;
+        background-color: $main-color;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: none;
+        
+        &:hover {
+            background: $main-color-active;
+        }
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            outline: none;
+            transform: translateY(2px);
+        }
+    }
+    &__img {
+        position: relative;
+        display: flex;
+        align-items: center;
+        // width: 63px;
+        height: 63px;
+    }
+}
+
+
+.header {   
+    display: flex;
+   
+    padding-top: 23px;
+    align-items: center;
+    .menu__header {
+        display: flex;
+        justify-content: space-between;
+        
+        
+        list-style-type: none;
+        margin-left: 50px;
+        width: 615px;
+        &_item {
+            border-right: 1px solid #ffffff;
+            padding-right: 10px;
+            line-height: 16px;
+            &:last-child {
+			    border-right: none;
+            }
+            a {
+                transition: all 0.1s;
+            }
+        }
+        &_link {
+            font-size: 15px;
+            font-weight: 400;
+            color: #ffffff;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+                border-bottom: 1px solid;
+            }
+        }
+    }
+    &__phone {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        flex: auto;
+        padding-bottom: 21px;
+    }
+    &__call {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 24px;
+    }
+    &__number {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 24px;
+    }
+    &__btn {
+        margin-left: 18px;
+        margin-bottom: 13px;
+        width: 160px;
+        height: 45px;
+        background-color: $main-color;
+        border-radius: 25px;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: none;
+        &:hover {
+            background: $main-color-active;
+        }
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            outline: none;
+            transform: translateY(2px);
+        }
+
+    }
+    &__descr {
+        text-align: center;
+        color:#ffffff;
+        margin-top: 5px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    &__h1 {
+        text-align: center;
+        margin: 0;
+        color: $main-color;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.4;
+        font-family: 'Roboto Condensed';
+    }
+    &__h2 {
+        text-align: center;
+        color:#ffffff;
+        margin: 0;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 0.5;
+        font-family: 'Roboto Condensed';
+    }
+    .hamburger {
+        display: none;
+       
+    }
+}
+.stripe {
+    text-align: center;
+    margin-top: 40px;
+}
