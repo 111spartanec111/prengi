@@ -925,11 +925,7 @@ template {
 .slider2 .slider__item {
   position: relative;
   padding: 0px 0px;
-  margin-right: 80px;
-}
-
-.slider2 .slider__item img {
-  position: relative;
+  margin-right: 88px;
 }
 
 .custom-navigation {
