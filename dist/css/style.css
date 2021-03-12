@@ -1043,6 +1043,78 @@ template {
   color: #00c2f0;
 }
 
+.advantages {
+  min-height: 1330px;
+  background-color: #f3f3f3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.advantages__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.advantages__item1 {
+  background: url("../img/advantages/advan1.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item2 {
+  background: url("../img/advantages/advan2.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item3 {
+  background: url("../img/advantages/advan3.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item4 {
+  background: url("../img/advantages/advan4.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item5 {
+  background: url("../img/advantages/advan5.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item6 {
+  background: url("../img/advantages/advan6.png") center center/cover no-repeat;
+  width: 570px;
+  height: 355px;
+}
+
+.advantages__item_descr {
+  position: relative;
+  margin: 0 auto;
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  top: 150px;
+  width: 340px;
+}
+
+.advantages__title {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 900;
+  color: #393939;
+  margin: 0 auto;
+  width: 375px;
+  text-align: center;
+}
+
 .pageup {
   display: none;
   position: fixed;

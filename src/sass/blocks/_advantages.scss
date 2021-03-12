@@ -1,47 +1,63 @@
 .advantages {
-    min-height: 590px;
+    min-height: 1330px;
     background-color: #f3f3f3;
-    padding-top: 48px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        text-align: center;
+        margin-top: 44px;
     }
-    &__item {
-        display: flex;
-        width: 545px;
-        margin-top: 30px;
-        padding-left: 5px;
-        &_img {
-            display: flex;
-            align-items: flex-start;
-            width: 60px;
-            
-        }
-        &_descr {
-            width: 450px;
-            margin-left: 17px;
-        }
+    &__item1 {
+        background:url('../img/advantages/advan1.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
     }
-    .text1 {
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: 700;
-        color: $main-color;
+    &__item2 {
+        background:url('../img/advantages/advan2.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
     }
-    .text2 {
-        margin-top: 3px;
-        font-size: 14px;
-        font-weight: 300;
-        color: #3a3a3a;
+    &__item3 {
+        background:url('../img/advantages/advan3.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
+    }
+    &__item4 {
+        background:url('../img/advantages/advan4.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
+    }
+    &__item5 {
+        background:url('../img/advantages/advan5.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
+    }
+    &__item6 {
+        background:url('../img/advantages/advan6.png') center (center / cover) no-repeat; 
+        width: 570px;
+        height: 355px;
+    }
+    &__item_descr {
+        position: relative;
+        margin: 0 auto;
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        top: 150px;
+        width: 340px;
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        margin: 0 auto;
+        width: 375px;
+        text-align: center;
     }
 }
 
-.title {
-    text-align: center;
-    font-size: 26px;
-    line-height: 23px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #2e2e2e;
-}
