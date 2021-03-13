@@ -467,6 +467,26 @@ template {
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 14px;
+  /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #dddddd;
+  border: 1px solid black;
+  /* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00c2f0;
+  /* цвет плашки */
+  border-radius: 20px;
+  /* закругления плашки */
+  border: 1px solid #474747;
+  /* padding вокруг плашки */
+}
+
 .container {
   position: relative;
   width: 1140px;
